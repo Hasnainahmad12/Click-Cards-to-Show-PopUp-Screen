@@ -1,0 +1,57 @@
+.product{
+    @apply text-center mt-4
+}
+
+.paragh{
+    height: 420px;
+    width: 500px;
+    /* background: pink; */
+    position: absolute;
+    top: 55px;
+    left: 50%;
+    padding-top: 70px;
+}
+
+.disc{
+    text-align: justify;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+@media (max-width:800px){
+    .desc__image{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* margin-left: 100px; */
+        margin-top: 40px;
+        height: 250px;
+        width: 300px;
+    }
+
+    .product{
+        @apply mt-4 mr-48
+    }
+
+    .paragh{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 220px;
+        width: 370px;
+        /* background: pink; */
+        position: absolute;
+        top: 305px;
+        left: 1%;
+        padding-top: 70px;
+    }
+ 
+    
+    .disc{
+        text-align: justify;
+        padding: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 16px;
+}
+}

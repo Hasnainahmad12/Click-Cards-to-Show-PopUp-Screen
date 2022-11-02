@@ -1,0 +1,16 @@
+.cards{
+    box-shadow: 0px 10px 25px 0px gray;
+    overflow: hidden;
+    @apply h-[400px] w-96 rounded-2xl mt-4
+}
+
+/* .cards:hover{
+   cursor: pointer;
+   transform: scale(1.1);
+   transition: transform 0.2s linear;
+} 
+
+ .cards__image:hover{
+    filter: brightness(80%);
+} */
+
